@@ -1,0 +1,18 @@
+h1{
+    color: black;
+    font-size: 46px;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../images/31192.jpg"); /*Put your image url*/
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25; /*Value from 0.0 to 1.0*/
+}

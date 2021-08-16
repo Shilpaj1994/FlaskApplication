@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <br/><br/>
+
+    <!--  Home Page Message  -->
+    <div class="container">
+      <h1>About Me ....</h1>
+      <p>
+        {% for info in data %}
+          {{ info.0 }} <br/>
+        {% endfor %}
+      </p>
+    </div>
+{% endblock %}
+
